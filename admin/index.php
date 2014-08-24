@@ -28,7 +28,7 @@ $myrow = mysql_fetch_array($result);
 <head>
 <!-- Google Analytics Content Experiment code -->
 <!-- End of Google Analytics Content Experiment code -->
-  <title>CLIENT IN TOP | Лэндинги с конверсией 5 - 45%</title>
+    <title>POKER | Лучшие условия для серьезных игроков</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
