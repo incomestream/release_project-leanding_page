@@ -1,0 +1,59 @@
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* Dmitriy Volovik | Ailoty.com*/
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* Main Styles */
+
+.slide-pd { margin:auto; padding:0 0px; position:relative; width:1060px; }
+
+
+#slide1 { background:url(../img/bg_1.jpg) center 0 no-repeat #f7f7f7; }
+#slide1 .slide-pd { height:790px;}
+
+#slide1 .left { color:#ffffff; float:left;padding: 0px 0 0 0;}
+#slide1 .left .title{color: #ffffff;font-size: 24px;font-family: 'Roboto-Medium',sans-serif;text-shadow: 0px 2px 0px rgba(68, 56, 36, 0.8);
+margin: 122px 0 0px 32px;
+}
+#slide1 .left .bonus{height: 45px;margin: 14px 0 0px 21px;width: 400px;
+background:url(../img/bonus.png) center top no-repeat;
+}
+#slide1 .left .bg_form_two{margin: 44px 0 0 10px;width: 350px;}
+#slide1  .right { float:right; padding:0px 0 0 0; }
+#slide1  .right img { position: absolute;top: 39px;right: 0px;}
+
+#slide2 { background:url(../img/bg_2.png) center 0 no-repeat #f7f7f7; }
+#slide2 .slide-pd { height:820px; }
+#slide2 .left { color:#ffffff; float:left;padding: 0px 0 0 0;}
+#slide2  .left ul{margin:100px 0 0 25px; }
+#slide2  .left ul li{margin: 0 0 45px 0;padding-left: 104px;padding-bottom:16px; }
+#slide2  .left ul li.l1{background: url('../img/flag_icon1.png') left top no-repeat;}
+#slide2  .left ul li.l2{background: url('../img/flag_icon2.png') left top no-repeat;}
+#slide2  .left ul li.l3{background: url('../img/flag_icon3.png') left top no-repeat;}
+#slide2  .left ul li.l4{background: url('../img/flag_icon4.png') left top no-repeat;}
+#slide2  .left ul li.l5{background: url('../img/flag_icon5.png') left top no-repeat;}
+#slide2  .left ul li .title{font-size:30px;  font-family:'Roboto-Regular',sans-serif;margin: 0 0 4px 0;}
+#slide2  .left ul li span{font-size:16px;  font-family:'Roboto-Light',sans-serif;padding: 0 0 0px 0;color: #ffe35e;}
+#slide2  .right { float:right; padding:0px 0 0 0; }
+#slide2  .right img { float:right; margin:156px 72px 0 0; }
+
+#slide3 { background:url(../img/bg_3.jpg) center 0 no-repeat #f7f7f7; }
+#slide3 .slide-pd { height:685px; }
+#slide3 .left { float:left;}
+#slide3 .left .bg_form_two{margin-top: 172px;width: 400px;}
+#slide3 .right { color:#ffffff; float:right;padding: 172px 83px 0 0;}
+#slide3  .right .title{font-size:37px;  font-family:'Roboto-Regular',sans-serif;padding: 0px 0 0px 0;
+height: 45px;margin: 0px 0 27px 0;width: 428px;
+background:url(../img/what_is.png) center top no-repeat;}
+#slide3  .right p{font-size:17px;  font-family:'Roboto-Light',sans-serif;padding: 0 0 21px 0;text-align: justify;line-height: 1.4;word-spacing:4px;}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* Footer */
+#footer {  background:url(../img/bg_footer.jpg) center 0 no-repeat #f7f7f7;  font-family:Arial; }
+#footer .slide-pd { padding:43px 0px 0 0;height:60px; overflow:hidden;}
+#footer .left { float:left;color: #ffffff;font-size:17px;  font-family:'Roboto-Light',sans-serif;margin: 0 0 0 31px;}
+#footer .left a{color: #ffffff;text-decoration: none;}
+#footer .left a:hover{color: #ffffff;text-decoration: underline;}
+#footer .left span{color:#aaaaaa;font-size:17px;  font-family:'Roboto-Light',sans-serif;margin: 0 0 0 10px;}
+#footer .left_r { float:left;color: #aaaaaa;font-size:14px;  font-family:'Roboto-Light',sans-serif;padding: 3px 0 0 98px;word-spacing: 5px;}
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------- */

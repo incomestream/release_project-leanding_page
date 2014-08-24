@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>POKER | Лучшие условия для серьезных игроков</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="StyleSheet" href="css/fonts.css" type="text/css">
+    <link rel="StyleSheet" href="css/common.css" type="text/css">
+    <link rel="StyleSheet" href="css/design.css" type="text/css">
+      <script type="text/javascript" src="js/calc/jquery.min.ajax.js"></script>
+      <script type="text/javascript" src="js/calc/validation.js"></script>
+</head>
+<body>
+    <input type="hidden" name="prefix" class="prefix" value="">
+    <input type="hidden" name="referer" value="">
+    <input type="hidden" name="ref_url" value="">
+    <input type="hidden" class="formname" name="formname" value="">
+<div id="slide1"><div class="slide-pd">
+   <div class="left">
+    <div class="title">Лучшие условия для серьезных игроков</div>
+  <div class="bonus"></div>
+       <div class="bg_form_two">
+            <label class="name left red2 required">
+          <input type="text" id="input101" name="article_title_new" class="input_name" placeholder="Имя"></label><br>
+             <label class="email left red2 required">
+          <input type="text" id="input102" name="article_author_new" class="input_email" placeholder="E-mail"></label><br>
+           <label class="skype left red2 required">
+          <input type="text" id="input103" name="article_title_skype" class="input_skype" placeholder="Skype"></label><br>
+           <input name="addArticle" type="button" class="red button noselect" value="Получить бонусы">
+          </div>
+  </div>
+  <div class="right"><img src="img/girl.png" alt=""></div>
+</div></div>
+<div id="slide2"><div class="slide-pd">
+    <div class="left">
+          <ul>
+            <li class="l1">
+              <div class="title">Французские сети покера</div>
+              <span>Ipoker.fr PokerStars.fr WinMax.fr и др.</span>
+            </li>
+                <li class="l2">
+              <div class="title">Комнаты из Италии</div>
+              <span>PlanetWin365 Dollaro Cake.it</span>
+            </li>
+              <li class="l3">
+              <div class="title">Neteller VIP Card</div>
+              <span>Вип Карта с лимитами 3300$ в день Комиссия за<br> переводы 0% + возврат до 0.8% </span>
+            </li>
+               <li class="l4">
+              <div class="title">Счета в европейском союзе </div>
+              <span>Дистанционное открытие</span>
+            </li>
+                <li class="l5">
+              <div class="title">Бонусы для серьезных игроков</div>
+              <span>Тренировки с Про, майнинг, выгодные сделки в новых<br> комнатах. Бонус до 100%.</span>
+            </li>
+          </ul>
+    </div>
+  <div class="right"><img src="img/cart.png" alt=""></div>
+</div></div>
+<div id="slide3"><div class="slide-pd">
+  <div class="left">
+           <div class="bg_form_two">
+            <label class="name2 left red2 required">
+          <input type="text" id="input104" name="article_title_new2" class="input_name" placeholder="Имя"></label><br>
+             <label class="email2 left red2 required">
+          <input type="text" id="input105"  name="article_author_new2" class="input_email" placeholder="E-mail"></label><br>
+           <label class="skype2 left red2 required">
+          <input type="text" id="input106" name="article_title_skype2" class="input_skype" placeholder="Skype"></label><br>
+           <input name="addArticle2" type="button" class="green button noselect" value="Получить бонусы">
+          </div>
+   </div>
+  <div class="right">
+    <div class="title"></div>
+    <p>Если ты выбираешь новый рум или ищешь более <br>
+      выгодную сделку, то ее условия будут зависеть от <br>
+      твоих собственных предпочтений и возможностей.</p>
+      <p>У нас есть масса предложений для серьезных <br>
+        игроков и мы можем подобрать тебе подходящую  <br>
+        комнату с хорошим бонусом и на нужном лимите.</p>
+  </div>
+</div></div>
+<div id="footer"><div class="slide-pd cl">
+  <div class="left"><a href="/poker/">Pokeroff.ru</a><span>© 2006—2014</span></div>
+  <div class="left_r">Pokeroff.ru не проводит игры на деньги. Сайт носит исключительно информационный характер.</div>
+</div></div>
+<div class="popup_overlay" ></div>
+<div class="popup" id="thx">
+  <div class="popup-title">Спасибо за&nbsp;вашу заявку</div>
+  <p>Наш менеджер свяжется с&nbsp;вами в&nbsp;ближайшее время</p>
+  <input name="thx" type="button" class="green noselect" value="Вернуться на сайт" onClick="popup_out();">
+</div>
+<script type="text/javascript" src="js/jquery.min2.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.10.4.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery.formChecker.js"></script>
+<script type="text/javascript" src="js/3deye.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script src="js/post.js" type="text/javascript"></script>
+</body>
+</html>

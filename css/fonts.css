@@ -1,0 +1,83 @@
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* Dmitriy Volovik | Ailoty.com*/
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* Fonts */
+
+  @font-face {
+  font-family:"OpenSans-Semibold";
+  src:url("../fonts/semibold/OpenSans-Semibold?") format("eot"),
+  url("../fonts/semibold/OpenSans-Semibold.woff") format("woff"),
+  url("../fonts/semibold/OpenSans-Semibold.ttf") format("truetype"),
+  url("../fonts/semibold/OpenSans-Semibold.svg#OpenSans-Semibold") format("svg");
+    font-weight: 500;
+  font-style:normal;
+ }
+ @font-face {
+  font-family:"OpenSansLight";
+  src:url("../fonts/opensanslight/OpenSansLight?") format("eot"),
+  url("../fonts/opensanslight/OpenSansLight.woff") format("woff"),
+  url("../fonts/opensanslight/OpenSansLight.ttf") format("truetype"),
+  url("../fonts/opensanslight/OpenSansLight.svg#OpenSansLight") format("svg");
+    font-weight: 500;
+  font-style:normal;
+}
+
+
+
+ @font-face {
+  font-family:"Roboto-Light";
+  src:url("../fonts/light/Roboto-Light.eot?") format("eot"),
+  url("../fonts/light/Roboto-Light.woff") format("woff"),
+  url("../fonts/light/Roboto-Light.ttf") format("truetype"),
+  url("../fonts/light/Roboto-Light.svg#Roboto-Light") format("svg");
+    font-weight: 300;
+  font-style:normal;
+ }
+
+ 
+ @font-face {
+   font-family: 'Roboto-LightItalic';
+  src:url("../fonts/lightitalic/Roboto-LightItalic.eot?") format("eot"),
+  url("../fonts/lightitalic/Roboto-LightItalic.woff") format("woff"),
+  url("../fonts/lightitalic/Roboto-LightItalic.ttf") format("truetype"),
+  url("../fonts/lightitalic/Roboto-LightItalic.svg#Roboto-Light") format("svg");
+   font-weight: 300;
+  font-style:normal;
+ }
+
+ @font-face {
+   font-family: 'Roboto-Regular';
+  src:url("../fonts/regular/Roboto-Regular.eot?") format("eot"),
+  url("../fonts/regular/Roboto-Regular.woff") format("woff"),
+  url("../fonts/regular/Roboto-Regular.ttf") format("truetype"),
+  url("../fonts/regular/Roboto-Regular.svg#Roboto-Light") format("svg");
+   font-weight: 400;
+  font-style:normal;
+ }
+   
+@font-face {
+        font-family: "Roboto-Medium";
+        src: url('../fonts/medium/Roboto-Medium.eot');
+        src: url('../fonts/medium/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/medium/Roboto-Medium.svg#Roboto-Medium') format('svg'),
+        url('../fonts/medium/Roboto-Medium.woff') format('woff'),
+        url('../fonts/medium/Roboto-Medium.ttf') format('truetype');
+        font-weight: 500;
+        font-style: normal;
+    }
+ @font-face {
+        font-family: "Roboto-Black";
+        src: url('../fonts/black/Roboto-Black.eot');
+        src: url('../fonts/black/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/black/Roboto-Black.svg#Roboto-Black') format('svg'),
+        url('../fonts/black/Roboto-Black.woff') format('woff'),
+        url('../fonts/black/Roboto-Black.ttf') format('truetype');
+        font-weight: 500;
+        font-style: normal;
+    }   
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* .ru */

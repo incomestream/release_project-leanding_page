@@ -1,0 +1,101 @@
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* Anton Lukashov | cassador.ru */
+
+.animated { -webkit-animation-duration:1s; animation-duration:1s; }
+.animated { -webkit-animation-fill-mode:both; animation-fill-mode:both; }
+
+#slide2 .box, .how-save, .project, .ways strong, .ways p, .ways span, .ways { opacity:0; }
+.bage, .im-block, .why-block, .review-block, .certs, .sides .manager { opacity:0; }
+/*#header { opacity:0; }*/
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* Animations */
+
+@-webkit-keyframes fadeIn {
+  0% { opacity:0; }
+  100% { opacity:1; }
+}
+@keyframes fadeIn {
+  0% { opacity:0; }
+  100% { opacity:1; }
+}
+.animated.fadeIn { -webkit-animation-name:fadeIn; animation-name:fadeIn; }
+.animated.fadeIn { -webkit-animation-duration:2s; animation-duration:2s; }
+
+@-webkit-keyframes fadeInUp {
+  0% { opacity:0; -webkit-transform:translateY(60px); }
+  100% { opacity:1; -webkit-transform:translateY(0); }
+}
+@keyframes fadeInUp {
+  0% { opacity:0; transform:translateY(60px); }
+  100% { opacity:1; transform:translateY(0); }
+}
+.animated.fadeInUp { -webkit-animation-name:fadeInUp; animation-name:fadeInUp; }
+
+@-webkit-keyframes fadeInLeft {
+  0% { opacity:0; -webkit-transform:translateX(60px); }
+  100% { opacity:1; -webkit-transform:translateX(0); }
+}
+@keyframes fadeInLeft {
+  0% { opacity:0; transform:translateX(60px); }
+  100% { opacity:1; transform:translateX(0); }
+}
+.animated.fadeInLeft { -webkit-animation-name:fadeInLeft; animation-name:fadeInLeft; }
+
+@-webkit-keyframes fadeInRight {
+  0% { opacity:0; -webkit-transform:translateX(-60px); }
+  100% { opacity:1; -webkit-transform:translateX(0); }
+}
+@keyframes fadeInRight {
+  0% { opacity:0; transform:translateX(-60px); }
+  100% { opacity:1; transform:translateX(0); }
+}
+.animated.fadeInRight { -webkit-animation-name:fadeInRight; animation-name:fadeInRight; }
+
+@-webkit-keyframes fadeInScale {
+  0% { opacity:0; -webkit-transform:scale(0); }
+  100% { opacity:1; -webkit-transform:scale(1); }
+}
+@keyframes fadeInScale {
+  0% { opacity:0; transform:scale(0); }
+  100% { opacity:1; transform:scale(1); }
+}
+#slide2 .slide-pd.animated .box { -webkit-animation-name:fadeInScale; animation-name:fadeInScale; }
+#slide2 .slide-pd.animated .box { -webkit-animation-duration:1s; animation-duration:1s; }
+#slide2 .slide-pd.animated .box { -webkit-animation-fill-mode:both; animation-fill-mode:both; }
+
+.sides.animated .arow_orang ,.sides.animated .s1, .sides.animated .s2, .sides.animated .s3, .sides.animated .s4, .sides.animated .s5,.sides.animated .s6, .sides.animated .s7{ -webkit-animation-name:fadeInScale; animation-name:fadeInScale; }
+.sides.animated .arow_orang ,.sides.animated .s1, .sides.animated .s2, .sides.animated .s3, .sides.animated .s4, .sides.animated .s5 ,.sides.animated .s6, .sides.animated .s7 { -webkit-animation-duration:1s; animation-duration:1s; }
+.sides.animated .arow_orang ,.sides.animated .s1, .sides.animated .s2, .sides.animated .s3, .sides.animated .s4, .sides.animated .s5,.sides.animated .s6, .sides.animated .s7 { -webkit-animation-fill-mode:both; animation-fill-mode:both; }
+.sides.animated .s1 { -webkit-animation-delay:0.2s; animation-delay:0.2s; }
+.sides.animated .s2 { -webkit-animation-delay:0.4s; animation-delay:0.4s; }
+.sides.animated .s3 { -webkit-animation-delay:0.6s; animation-delay:0.6s; }
+.sides.animated .s4 { -webkit-animation-delay:0.8s; animation-delay:0.8s; }
+.sides.animated .s5 { -webkit-animation-delay:1s; animation-delay:1s; }
+.sides.animated .s6 { -webkit-animation-delay:1.2s; animation-delay:1.2s; }
+.sides.animated .s7 { -webkit-animation-delay:1.4s; animation-delay:1.4s; }
+.sides.animated .arow_orang  { -webkit-animation-delay:0.5s; animation-delay:0.5s; }
+
+
+.animated.ways { -webkit-animation-name:fadeInScale; animation-name:fadeInScale; }
+.animated.ways strong, .animated.ways p, .animated.ways span { -webkit-animation-name:fadeIn; animation-name:fadeIn; }
+.animated.ways strong, .animated.ways p, .animated.ways span { -webkit-animation-duration:2s; animation-duration:2s; }
+.animated.ways strong, .animated.ways p, .animated.ways span { -webkit-animation-fill-mode:both; animation-fill-mode:both; }
+.animated.ways p { -webkit-animation-delay:0.4s; animation-delay:0.4s; }
+.animated.ways span { -webkit-animation-delay:0.8s; animation-delay:0.8s; }
+
+@-webkit-keyframes Header {
+  0% { opacity:0; -webkit-transform:translateY(-100px); }
+  100% { opacity:1; -webkit-transform:translateY(0); }
+}
+@keyframes Header {
+  0% { opacity:0; transform:translateY(-100px); }
+  100% { opacity:1; transform:translateY(0); }
+}
+/*#header { -webkit-animation-name:Header; animation-name:Header; }
+#header { -webkit-animation-duration:2s; animation-duration:2s; }
+#header { -webkit-animation-fill-mode:both; animation-fill-mode:both; }
+*/
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* cassador.ru */

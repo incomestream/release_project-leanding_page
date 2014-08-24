@@ -1,0 +1,162 @@
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* Dmitriy Volovik | Ailoty.com*/
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* Tech Styles */
+
+* { margin:0; padding:0; outline:none; }
+html, body { margin:auto; max-width:2558px; -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+
+.cl:after { clear:both; content:"."; display:block; height:0; visibility:hidden; }
+.bl { display:block; }
+
+
+body { background:#fff; color:#515151; font-family:'pf_centro_sans_prolight'; font-size:15px; }
+
+ul { list-style:none; }
+strong { font-weight:normal; }
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color:#515151; opacity:1; }
+input::-moz-placeholder, textarea::-moz-placeholder { color:#515151; opacity:1; }
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder { opacity:0; }
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder { opacity:0; }
+textarea { overflow:auto; resize:none; }
+
+.noselect { -webkit-touch-callout:none; -webkit-user-select:none; -khtml-user-select:none; 
+  -moz-user-select:none; -ms-user-select:none; -o-user-select:none; user-select:none; }
+.popup_overlay { background:rgba(0,0,0,0.6); display:none; height:100%; left:0; position:fixed; top:0; width:100%; z-index:10; }
+
+
+.popup { background: url('../i/popup_send.jpg') center top no-repeat,#fcbd00;  display:none; position:fixed; padding:30px 45px 25px 45px; 
+  z-index:11; }
+.popup a{display: block;width: 40px;height: 40px;position: absolute;top:0px;right: 2px;
+background: url('../i/x.png') center top no-repeat;
+}
+
+.popup#thx {background: url('../img/bg_3.jpg') center top no-repeat;width: 386px;}/*цвет об успешой отправки*/
+
+.popup#request_calc { text-align:left; width:550px; }
+.popup#request_calc .form-section { color:#000; font-family:'pf_centro_sans_proregular'; font-size:17px; padding:30px 45px 25px 45px; }
+  .popup .popup-title {color: #ffffff; font-family:'Roboto-Regular'; font-size:22px; line-height:22px; padding-bottom:15px;padding-left: 18px;  }
+  
+  .popup p { font-family:'Roboto-Light'; font-size:18px; line-height:25px; padding: 0 0 30px 18px; text-align:left;color: #ffffff; }
+.popup_close { display:none; }
+.popup span{font-family:'Roboto-Regular'; font-size:13px;  color: #fff;text-align:left;
+padding: 0 0 0 30px;width: 200px;
+}
+.popup span.lock{background: url('../i/lock.png') left top no-repeat;padding: 0 0 10px 30px;}
+.clear{clear:both; }
+.locker{margin: 10px 0 0 0;}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* Errors */
+
+label { display:inline-block; margin-bottom:15px; position:relative; }
+label:before, label:after { display:block; opacity:0; position:absolute; visibility:hidden; z-index:5; }
+label:before { content:''; height:0; line-height:0; position:absolute; width:0; }
+label:after { background-color:#b92723; border-radius:4px; color:#fff; content:attr(data); cursor:pointer; font-size:14px; height:20px; }
+label:after { line-height:10px; padding:11px 11px 0; white-space:nowrap; }
+
+label.right:before { border-top:solid 5px transparent; border-bottom:solid 5px transparent; border-right:solid 5px #b92723; left:100%; margin:-5px 0 0 5px; top:50%; }
+label.right:after { right:100%; margin:-16px 0 0 10px; top:50%; }
+
+label.left:before { border-top:solid 5px transparent; 
+  border-bottom:solid 5px transparent;
+   border-right:solid 5px #ffffff; /*цвет стрелки*/
+   margin:-5px 5px 0 5px; left:100%; 
+   top:50%; }
+label.left:after { left:100%; margin:-16px 10px 0 10px; top:50%; }
+
+label.top:before { border-left:solid 5px transparent; border-right:solid 5px transparent; border-top:solid 5px #b92723; left:50%; top:-10px; }
+label.top:after { left:5%; top:-41px; }
+
+label.red { border:solid 0px #b92723; }/*обводка error*/
+label.red:before, label.red:after { opacity:1; visibility:visible; }
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* Forms */
+
+label { border-radius:4px; }
+
+
+
+label.email{background:url('../img/email.png') no-repeat; width: 350px;height: 68px;padding:0px 0 0px 0px;margin:0 0 21px 21px; }/*поле имейл*/
+label.email2{background:url('../img/email.png') no-repeat; width: 350px;height: 68px;padding:0px 0 0px 0px;margin:0 0 21px 31px; }/*поле имейл*/
+label.name{background:url('../img/name.png') no-repeat; width: 350px;height: 68px;padding:0px 0 0px 0px;margin:0 0 21px 21px; }/*поле имейл*/
+label.name2{background:url('../img/name.png') no-repeat; width: 350px;height: 68px;padding:0px 0 0px 0px;margin:0 0 21px 31px; }/*поле имейл*/
+label.skype{background:url('../img/skype.png') no-repeat; width: 350px;height: 68px;padding:0px 0 0px 0px;margin:0 0 11px 21px; }/*поле имейл*/
+label.skype2{background:url('../img/skype.png') no-repeat; width: 350px;height: 68px;padding:0px 0 0px 0px;margin:0 0 17px 31px; }/*поле имейл*/
+
+input[type="text"].input_email{background: transparent; width: 255px;color: #000000;font-size: 27px;/*надпись имейл*/
+    font-family: 'Roboto-light',sans-serif;padding:8px 0 0px 70px; height: 50px;}
+    input[type="text"].input_email2{background: transparent; width: 255px;color: #000000;font-size: 27px;/*надпись имейл*/
+    font-family: 'Roboto-light',sans-serif;padding:8px 0 0px 70px; height: 50px;}
+
+input[type="text"].input_name{background: transparent; width: 255px;color: #000000;font-size: 27px;/*надпись имейл*/
+    font-family: 'Roboto-light',sans-serif;padding:8px 0 0px 70px; height: 50px;}
+    input[type="text"].input_name2{background: transparent; width: 255px;color: #000000;font-size: 27px;/*надпись имейл*/
+    font-family: 'Roboto-light',sans-serif;padding:8px 0 0px 70px; height: 50px;}
+input[type="text"].input_skype{background: transparent; width: 255px;color: #000000;font-size: 27px;/*надпись имейл*/
+    font-family: 'Roboto-light',sans-serif;padding:8px 0 0px 70px; height: 50px;}
+    input[type="text"].input_skype2{background: transparent; width: 255px;color: #000000;font-size: 27px;/*надпись имейл*/
+    font-family: 'Roboto-light',sans-serif;padding:8px 0 0px 70px; height: 50px;}
+
+label.name input,label.name2 input, label.skype input,label.skype2 input, label.email input,label.email2 input { background:#fff;
+ border:none; border-radius:0 4px 4px 0; height:36px; 
+padding:0 0 0 10px; width:227px; }
+
+
+
+
+
+select { background:#fff; border:none; border-radius:0 4px 4px 0; cursor:pointer; height:30px; padding:6px 0 0 6px; width:237px; }
+select { color:#515151; font-family:'pf_centro_sans_proregular'; font-size:17px; -webkit-appearance:none; -moz-appearance:none; appearance:none; }
+
+label.select { overflow:hidden; }
+label.select:after, label.select:before { opacity:1; visibility:visible; }
+label.select:before {
+  background:#fafafa;/
+  background:-moz-linear-gradient(top, #fafafa 0%, #eeeeee 87%, #ffffff 100%);
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#fafafa), color-stop(87%,#eeeeee), color-stop(100%,#ffffff));
+  background:-webkit-linear-gradient(top, #fafafa 0%,#eeeeee 87%,#ffffff 100%);
+  background:-ms-linear-gradient(top, #fafafa 0%,#eeeeee 87%,#ffffff 100%);
+  background:linear-gradient(to bottom, #fafafa 0%,#eeeeee 87%,#ffffff 100%);
+}
+label.select:before { border-left:solid 1px #d5d5d5; border-radius:0 4px 4px 0; content:''; display:block; height:36px; line-height:24px; position:absolute; pointer-events:none; right:0; top:0; width:36px; }
+label.select:after { background:none; content:''; font-family:Arial; position:absolute; pointer-events:none; right:13px; top:15px; }
+label.select:after { border-radius:0; border-left:solid 5px transparent; border-top:solid 7px #474747; border-right:solid 5px transparent; height:0; padding:0; width:0; }
+
+input[type=button].green { background: url('../img/button_green.png') center top no-repeat; 
+
+  border:none; color:#fff; cursor:pointer; 
+  display:block; font-family:'Roboto-Regular'; font-size:24px; padding:0px 0 20px 0;margin: 0 0 0 12px;
+  width:390px; height: 105px; text-shadow: 0px 1px 0px rgba(69, 69, 69, 0.8);float: left;
+}
+input[type=button].red { background: url('../img/button_red.png') center top no-repeat; 
+
+  border:none; color:#fff; cursor:pointer; 
+  display:block; font-family:'Roboto-Regular'; font-size:24px; padding:0px 0 10px 0;
+  width:395px; height: 105px; text-shadow: 0px 1px 0px rgba(69, 69, 69, 0.8);float: left;
+}
+
+
+input[type=button]:hover {  opacity: 0.9;}
+input[type=button]:active { opacity: 0.9; }
+
+.popup input[type=button] { margin:auto; }
+
+.ceil-block label { border:none; border-radius:0; cursor:pointer; font-family:'pf_centro_sans_promedium'; margin:0; }
+.ceil-block label:before { visibility:visible; opacity:1; }
+.ceil-block label:before { background:url(../i/form.png) -20px -19px no-repeat; border:0; height:19px; left:-22px; top:-1px; width:19px; }
+.ceil-block input[type=radio] { visibility:hidden; margin-right:5px; }
+.ceil-block input[type=radio].checked + label:before { background-position:-20px 1px; }
+
+.checkbox label { border:none; border-radius:0; cursor:pointer; margin:0; }
+.checkbox label:before { visibility:visible; opacity:1; }
+.checkbox label:before { background:url(../i/form.png) 0 0 no-repeat; border:0; height:19px; left:-25px; top:1px; width:19px; }
+.checkbox input[type=checkbox] { visibility:hidden; margin-right:5px; }
+.checkbox input[type=checkbox].checked + label:before { background-position:0 -20px; }
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* cassador.ru */

@@ -1,0 +1,158 @@
+body{overflow-y:scroll; /* Добавляем полосы прокрутки */}
+.head{background: #fff;height: 66px;position: fixed;top:0px;width: 100%;}
+.head .left{float: left;width: 100px;}
+.head .left img{margin: 5px 0 0 0;border: 0px;}
+.head .right{float: right;width: 200px;text-align: right;margin: 20px 0 0 0;}
+.head .wrap{width: 967px;margin: 0 auto;}
+.head .right span{color: #979797;font-size: 16px;font-family: 'Roboto-Regular',sans-serif; 
+background: url('../admin/man_admin.png')left top no-repeat;padding-left: 23px;}
+.head .right span a{color: #0096ff;font-size: 16px;font-family: 'Roboto-Regular',sans-serif;}
+.head .right span a:hover{text-decoration: none;}
+
+
+.foot{background: #fff;height: 100px;}
+
+.form{height: 305px;width: 410px;margin:  0px auto 40px;background: white;border-radius: 6px;
+ /* располагаем блок по середине */
+}
+
+.table{width: 920px;margin:  180px auto 50px;background: white;border-radius: 6px;padding: 30px 20px 60px 20px;
+ /* располагаем блок по середине */
+}
+.table .titles p{color: #638093;text-align: center;font-size: 36px;font-family: 'Roboto-Regular',sans-serif;margin: 0 0 40px 0;}
+
+.table table {margin: 0 auto;border-collapse: collapse;}
+.table table thead tr{background: #e5eef4;color: #000000;font-family: 'Roboto-Regular',sans-serif; font-size: 18px;}
+.table table thead td{color:  #000000;padding: 11px 0 11px 25px;}
+
+.table table tbody tr:nth-child(1n){background: #ffffff;color: #638093;font-family: 'Roboto-Regular',sans-serif; font-size: 18px;
+
+}
+.table table tbody tr:nth-child(2n){background: #e5eef4;color: #000000;font-family: 'Roboto-Regular',sans-serif; font-size: 18px;}
+
+.table table  td.one{width: 170px;padding: 11px 0 11px 45px;}
+.table table  td.two{width: 230px;padding: 11px 0 11px 45px;}
+.table table  td.three{width: 140px;padding: 11px 0 11px 30px;}
+.table table  td.four{width: 180px;padding: 11px 0 11px 45px;}
+
+
+
+
+.pagination {
+  margin: 50px 0 0 0;
+}
+
+.pagination ul {
+  display: inline-block;
+  *display: inline;
+
+}
+
+.pagination ul > li {
+  display: inline;
+}
+
+.pagination ul > li > a,
+.pagination ul > li > span {
+  float: left;
+  padding: 7px 11px 0px 11px;
+  line-height: 20px;
+  color: #638093;font-family: 'Roboto-Regular',sans-serif; font-size: 18px;
+  text-decoration: none;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius:5px;
+height: 28px;
+width: 12px;
+  border-left-width: 1px;
+}
+.pagination ul > li > a{margin: 2px;}
+
+.pagination ul > li > a:hover,
+.pagination ul > li > a:focus,
+.pagination ul > .active > a,
+.pagination ul > .active > span {
+  background-color: #f5f5f5;
+  border-left-width: 1px;
+}
+
+.pagination ul > .active > a,
+.pagination ul > .active > span {
+  color: #999999;
+  cursor: default;
+  border-left-width: 1px;
+}
+
+.pagination ul > .disabled > span,
+.pagination ul > .disabled > a,
+.pagination ul > .disabled > a:hover,
+.pagination ul > .disabled > a:focus {
+  color: #999999;
+  cursor: default;
+  background-color: transparent;
+}
+
+.pagination ul > li:first-child > a,
+.pagination ul > li:first-child > span {
+  border-left-width: 1px;
+  -webkit-border-bottom-left-radius: 4px;
+          border-bottom-left-radius: 4px;
+  -webkit-border-top-left-radius: 4px;
+          border-top-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  -moz-border-radius-topleft: 4px;
+}
+
+.pagination ul > li:last-child > a,
+.pagination ul > li:last-child > span {
+  -webkit-border-top-right-radius: 4px;
+          border-top-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+          border-bottom-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  -moz-border-radius-bottomright: 4px;
+}
+
+.pagination-centered {
+  text-align: center;
+}
+
+
+.navigation{width: 500px;margin: 50px auto 0; text-align: center;}
+
+.navigation a {color: #88a1b2; text-decoration: none;font-size: 17px;font-family: 'Tahoma',sans-serif;}
+.navigation a span{border: solid 1px #dedede; border-radius:5px;padding: 7px 8px 7px 8px; }
+.navigation a span.first{padding: 7px 11px 7px 11px;}
+.navigation a span.last{padding: 7px 11px 7px 11px;}
+.logo{height: 100px;width: 200px;margin: 20px auto 0;}
+	.logo img{border: 0px;
+ /* располагаем блок по середине */
+}
+
+
+.logo p{text-align: center;text-transform: uppercase;color: #aedeff;font-size: 24px;font-family: 'Roboto-Regular',sans-serif;}
+.title{height: 35px;width: 450px;margin: 250px auto 40px;
+  text-align: center;
+  font-size: 30px;font-family: 'Roboto-Regular',sans-serif;color: #aedeff;
+ /* располагаем блок по середине */
+}
+.title a{text-decoration: none;color: #fff;}
+.title a:hover{opacity: 0.6;}
+
+
+body{background: url('../admin/login.jpg') center top no-repeat;}
+
+.form form{width: 290px;margin: 0 auto ;padding: 55px 0 0 0;}
+
+.form form input[type=text]{
+  border: solid 0px ;width: 210px;height: 53px;font-family: 'Roboto-Light',sans-serif; font-size:24px;color: #000;margin: 0 0 20px 50px;
+background: transparent;
+}
+.login{  background: url('../admin/login.png') left top no-repeat;width: 300px;height: 53px;margin: 0 0 20px 0;}
+.pass{  background: url('../admin/pass.png') left top no-repeat;width: 300px;height: 53px;margin: 0 0 20px 0;}
+
+.form button{
+   border: solid 0px;width: 290px;height: 53px;font-family: 'Roboto-Light',sans-serif; font-size:24px;color: #fff;margin: 0 0 20px 0;
+cursor: pointer;border-radius:6px;background: url('../admin/button.png') center top no-repeat; 
+  }
+  .form button:hover{opacity: 0.8;};
