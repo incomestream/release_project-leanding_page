@@ -22,14 +22,11 @@
     <div class="title">Лучшие условия для серьезных игроков</div>
   <div class="bonus"></div>
        <div class="bg_form_two">
-            <label class="name left red2 required">
-          <input type="text" id="input101" name="article_title_new" class="input_name" placeholder="Имя"></label><br>
-             <label class="email left red2 required">
-          <input type="text" id="input102" name="article_author_new" class="input_email" placeholder="E-mail"></label><br>
-           <label class="skype left red2 required">
-          <input type="text" id="input103" name="article_title_skype" class="input_skype" placeholder="Skype"></label><br>
+            <label class="name left red2 required"><input type="text" id="input101" name="article_title_new" class="input_name" placeholder="Имя"></label><br>
+            <label class="email left red2 required"><input type="text" id="input102" name="article_author_new" class="input_email" placeholder="E-mail"></label><br>
+           <label class="skype left red2 required"><input type="text" id="input103" name="article_title_skype" class="input_skype" placeholder="Skype"></label><br>
            <input name="addArticle" type="button" class="red button noselect" value="Получить бонусы">
-          </div>
+      </div>
   </div>
   <div class="right"><img src="img/girl.png" alt=""></div>
 </div></div>
@@ -62,15 +59,12 @@
 </div></div>
 <div id="slide3"><div class="slide-pd">
   <div class="left">
-           <div class="bg_form_two">
-            <label class="name2 left red2 required">
-          <input type="text" id="input104" name="article_title_new2" class="input_name" placeholder="Имя"></label><br>
-             <label class="email2 left red2 required">
-          <input type="text" id="input105"  name="article_author_new2" class="input_email" placeholder="E-mail"></label><br>
-           <label class="skype2 left red2 required">
-          <input type="text" id="input106" name="article_title_skype2" class="input_skype" placeholder="Skype"></label><br>
-           <input name="addArticle2" type="button" class="green button noselect" value="Получить бонусы">
-          </div>
+        <div class="bg_form_two">
+            <label class="name2 left red2 required"><input type="text" id="input104" name="article_title_new2" class="input_name" placeholder="Имя"></label><br>
+            <label class="email2 left red2 required"><input type="text" id="input105"  name="article_author_new2" class="input_email" placeholder="E-mail"></label><br>
+            <label class="skype2 left red2 required"><input type="text" id="input106" name="article_title_skype2" class="input_skype" placeholder="Skype"></label><br>
+            <input name="addArticle2" type="button" class="green button noselect" value="Получить бонусы">
+       </div>
    </div>
   <div class="right">
     <div class="title"></div>
