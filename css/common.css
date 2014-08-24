@@ -130,13 +130,13 @@ label.select:after { border-radius:0; border-left:solid 5px transparent; border-
 input[type=button].green { background: url('../img/button_green.png') center top no-repeat; 
 
   border:none; color:#fff; cursor:pointer; 
-  display:block; font-family:'Roboto-Regular'; font-size:24px; padding:0px 0 20px 0;margin: 0 0 0 12px;
+  display:block; font-family:'Roboto-Regular'; font-size:24px; padding:0px 0 18px 0;margin: 0 0 0 12px;
   width:390px; height: 105px; text-shadow: 0px 1px 0px rgba(69, 69, 69, 0.8);float: left;
 }
 input[type=button].red { background: url('../img/button_red.png') center top no-repeat; 
 
   border:none; color:#fff; cursor:pointer; 
-  display:block; font-family:'Roboto-Regular'; font-size:24px; padding:0px 0 10px 0;
+  display:block; font-family:'Roboto-Regular'; font-size:24px; padding:0px 0 8px 0;
   width:395px; height: 105px; text-shadow: 0px 1px 0px rgba(69, 69, 69, 0.8);float: left;
 }
 
